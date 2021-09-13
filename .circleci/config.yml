@@ -20,7 +20,7 @@ jobs:
     steps:
       - checkout
       - run: echo "Hello again!"
-      - run: sleep 25
+      - run: sleep 15
 workflows:
   version: 2.1
   one_and_two:
