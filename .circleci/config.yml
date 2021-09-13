@@ -19,7 +19,7 @@ jobs:
           password: $DOCKERHUB_PASSWORD
     steps:
       -checkout
-      - run: echo "Hello again"
+      - run: echo "Hello again!"
       - run: sleep 25
 workflows:
   version: 2.1
